@@ -1,4 +1,7 @@
 //Include necessary headers
+#include <map>
+#include <list>
+#include <string> 
 using namespace std;
 
 
@@ -17,3 +20,17 @@ using namespace std;
     //Close file.
 
     //Begin time based sim for company changes over time period.
+        //going for 20 time intervals
+            //iterate through each company in map
+                //simulate changes for each company
+                    //Randomly decide if stock price, cash flow, or price
+                    //ratio fulctuates
+                        //read in new value if deciding to fluctuate
+                    //Print the changes
+                
+                //Simulate the more complex changes that occur as a result
+                //random events that impact company
+
+                //show passage of time.
+
+    //End main func
