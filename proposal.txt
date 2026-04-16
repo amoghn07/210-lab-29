@@ -1,0 +1,16 @@
+Project Overview:
+My project creates a stock market simluation to predict the nexchanges over the future 20 years.
+This software highlights various factors that might have led to fluctuations in market.
+Implementation:
+I plan to use a std::map to store and manage the data related to different market metrics across
+different companies. The map will place these metrics into 3 different std::lists representing stock
+prices, price to earnings ratio, and free cash flow. The map's key is the company and the value is
+an array of these lists.
+
+I have not yet chosen the companies to pick as map entries yet, but I will choose 3 stocks that I would
+like to cover for my map.
+
+Simulated events:
+This simulation will cover 5 different time periods and will focus on 3 events: oversupply which exceeds
+demand; Lawsuits; Industry specific disasters. At any given time period, these events may occur, leading
+to changes in list values.
