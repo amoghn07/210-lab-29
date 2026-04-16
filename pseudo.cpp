@@ -8,10 +8,15 @@ using namespace std;
 //define function to simulate company changes over time
     //Parameters: map of different companies, number of intervals
 
+void change(map<string, int>&, int);
+
 //define main
+int main(){
     //Initialize a map to store company info, each with a value 
     //that contains an array of three lists for stock price, free 
     //cash flow, and price to earnings ratio.
+    map<string, int> m;
+    
 
     //Open external file to read in data about companies to populate map
         //error handle
@@ -34,3 +39,5 @@ using namespace std;
                 //show passage of time.
 
     //End main func
+    return 0;
+}
